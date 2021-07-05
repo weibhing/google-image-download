@@ -1,7 +1,6 @@
 # Google Image Downloader
 Scrapes images from Google Images using pre-defined keywords, image count and image resolution
 
-
 ##Install
 Run the following code to download the code and install the required packages:
 ```

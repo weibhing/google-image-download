@@ -1,8 +1,8 @@
 # Google Image Downloader
-Scrapes images from Google Images using pre-defined keywords, image count and image resolution
+Scrapes images from Google Images using pre-defined keywords, image count and image resolution.
  
-***
 ##Quick Start
+
 ###Install
 Run the following code to download the code and install the required packages:
 ```
@@ -18,9 +18,9 @@ The ChromeDriver.exe must be located in the same directory as the script.
 ### Usage
 Run the following python script:
 ```
- py search_and_download.py -s KEYWORD [KEYWORD ...] \
-							-c IMAGE_COUNT \
-							-l
+py search_and_download.py -s KEYWORD [KEYWORD ...] \
+						-c IMAGE_COUNT \
+						-l
 optional arguments:
   -h, --help            show this help message and exit
   -s KEYWORD [KEYWORD ...], --search KEYWORD [KEYWORD ...]
@@ -31,9 +31,9 @@ optional arguments:
 ```
 Example usage:
 ```
- py search_and_download.py -s cars
-							-c 10
-							-l
+py search_and_download.py -s cars
+						-c 10
+						-l
 ```
 The output will be saved into "./images" folder created in the same directory as the code.
 ![Imgur](https://imgur.com/a/TnFTRCn)

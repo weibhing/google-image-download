@@ -1,7 +1,8 @@
 # Google Image Downloader
-Scrapes images from Google Images using pre-defined keywords, image count and image resolution.
- 
-###Install
+Scrapes images from Google Images using pre-defined keywords, image count and image resolution
+
+
+##Install
 Run the following code to download the code and install the required packages:
 ```
 $ git clone https://github.com/weibhing/google-image-download
@@ -13,7 +14,7 @@ ChromeDriver link: https://chromedriver.chromium.org/
 The ChromeDriver.exe must be located in the same directory as the script.
 
 
-### Usage
+## Usage
 Run the following python script:
 ```
 py search_and_download.py -s KEYWORD [KEYWORD ...] \
@@ -21,10 +22,8 @@ py search_and_download.py -s KEYWORD [KEYWORD ...] \
 				-l
 optional arguments:
   -h, --help            show this help message and exit
-  -s KEYWORD [KEYWORD ...], --search KEYWORD [KEYWORD ...]
-                        Provide keyword to be searched in google
-  -c IMAGE_COUNT, --count IMAGE_COUNT
-                        Provide number of images to be downloaded
+  -s KEYWORD [KEYWORD ...], --search KEYWORD [KEYWORD ...]		Provide keyword to be searched in google
+  -c IMAGE_COUNT, --count IMAGE_COUNT		Provide number of images to be downloaded
   -l, --large           Download higher resolution images (>8MP) (Default: >2MP)							
 ```
 Example usage:
